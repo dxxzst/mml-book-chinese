@@ -156,3 +156,76 @@ Martin Hewing
 Matthew Alger
 
 Matthew Lee
+
+Maximus McCann
+Mengyan Zhang
+Michael Bennett
+Michael Pedersen
+Minjeong Shin
+Mohammad Malekzadeh
+Naveen Kumar
+Nico Montali
+Oscar Armas
+Patrick Henriksen
+Patrick Wieschollek
+Pattarawat Chormai
+Paul Kelly
+Petros Christodoulou
+Piotr Januszewski
+Pranav Subramani
+Quyu Kong
+Ragib Zaman
+Rui Zhang
+Ryan-Rhys Griffiths
+Salomon Kabongo
+Samuel Ogunmola
+Sandeep Mavadia
+Sarvesh Nikumbh
+Sebastian Raschka
+Senanayak Sesh Kumar Karri
+Seung-Heon Baek
+Shahbaz Chaudhary
+Shakir Mohamed
+Shawn Berry
+Sheikh Abdul Raheem Ali
+Sheng Xue
+Sridhar Thiagarajan
+Syed Nouman Hasany
+Szymon Brych
+Thomas B¨uhler
+Timur Sharapov
+Tom Melamed
+Vincent Adam
+Vincent Dutordoir
+Vu Minh
+Wasim Aftab
+Wen Zhi
+Wojciech Stokowiec
+Xiaonan Chong
+Xiaowei Zhang
+Yazhou Hao
+Yicheng Luo
+Young Lee
+Yu Lu
+Yun Cheng
+Yuxiao Huang
+Zac Cranko
+Zijian Cao
+Zoe Nolan
+
+通过 GitHub 的贡献者（其真实姓名未在其 GitHub 个人资料中列出）是：
+
+SamDataMad
+bumptiousmonkey
+idoamihai
+deepakiim
+insad
+HorizonP
+cs-maillist
+kudo23
+empet
+victorBigand
+17SKYE
+jessjing1995
+
+我们也非常感谢 Parameswaran Raman 和剑桥大学出版社组织的许多匿名审稿人，他们阅读了手稿早期版本的一章或多章，并提出了建设性的批评意见，从而带来了相当大的改进。 特别值得一提的是 Dinesh Singh Negi，我们的 LATEX 支持人员，提供有关 LATEX 相关问题的详细而及时的建议。 最后但同样重要的是，我们非常感谢我们的编辑 Lauren Cowles，他一直耐心地指导我们完成本书的构思过程。
