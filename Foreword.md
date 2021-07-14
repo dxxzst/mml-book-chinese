@@ -42,60 +42,117 @@
 我们感谢许多看过本书早期草稿并经历了痛苦的概念阐述的人。 不是原则性的问题，我们尽量试图实现他们的想法。 我们要特别感谢 Christfried Webers 对本书许多部分的仔细阅读，以及他对结构和表述的详细建议。 许多朋友和同事也很友好地为每一章的不同版本付出了他们的时间和精力。 我们很幸运地受益于在线社区的慷慨解囊，他们通过 https://github.com 提出了改进建议，这极大地改进了本书。 以下人员通过 https://github.com 或个人交流发现了错误、建议的澄清和建议的相关文献。 他们的名字按字母顺序排列。
 
 Abdul-Ganiy Usman
+
 Adam Gaier
+
 Adele Jackson
+
 Aditya Menon
+
 Alasdair Tran
+
 Aleksandar Krnjaic
+
 Alexander Makrigiorgos
+
 Alfredo Canziani
+
 Ali Shafti
+
 Amr Khalifa
+
 Andrew Tanggara
+
 Angus Gruen
+
 Antal A. Buss
+
 Antoine Toisoul Le Cann
+
 Areg Sarvazyan
+
 Artem Artemev
+
 Artyom Stepanov
+
 Bill Kromydas
+
 Bob Williamson
+
 Boon Ping Lim
+
 Chao Qu
+
 Cheng Li
+
 Chris Sherlock
+
 Christopher Gray
+
 Daniel McNamara
+
 Daniel Wood
+
 Darren Siegel
+
 David Johnston
+
 Dawei Chen
+
 Ellen Broad
+
 Fengkuangtian Zhu
+
 Fiona Condon
+
 Georgios Theodorou
+
 He Xin
+
 Irene Raissa Kameni
+
 Jakub Nabaglo
+
 James Hensman
+
 Jamie Liu
+
 Jean Kaddour
+
 Jean-Paul Ebejer
+
 Jerry Qiang
+
 Jitesh Sindhare
+
 John Lloyd
+
 Jonas Ngnawe
+
 Jon Martin
+
 Justin Hsi
+
 Kai Arulkumaran
+
 Kamil Dreczkowski
+
 Lily Wang
+
 Lionel Tondji Ngoupeyou
+
 Lydia Kn¨ufing
+
 Mahmoud Aslan
+
 Mark Hartenstein
+
 Mark van der Wilk
+
 Markus Hegland
+
 Martin Hewing
+
 Matthew Alger
+
 Matthew Lee
