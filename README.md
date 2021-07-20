@@ -6,9 +6,9 @@
 
 # 目录
 
--  [0.前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md)
+-  [前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md)
 
-- [1.Part I 数学基础](https://github.com/dxxzst/mml-book-chinese)
+- [Part I 数学基础](https://github.com/dxxzst/mml-book-chinese)
 
   - [1 介绍和动机](https://github.com/dxxzst/mml-book-chinese)
 
@@ -36,7 +36,7 @@
 
   - [练习](https://github.com/dxxzst/mml-book-chinese)
 
-- [2.Part II 机器学习核心问题](https://github.com/dxxzst/mml-book-chinese)
+- [Part II 机器学习核心问题](https://github.com/dxxzst/mml-book-chinese)
 
   - [8 当模型遇到数据](https://github.com/dxxzst/mml-book-chinese)
 
@@ -48,6 +48,6 @@
 
   - [12 使用支持向量机分类](https://github.com/dxxzst/mml-book-chinese)
 
-- [3.参考](https://github.com/dxxzst/mml-book-chinese)
+- [参考](https://github.com/dxxzst/mml-book-chinese)
 
-- [4.索引](https://github.com/dxxzst/mml-book-chinese)
+- [索引](https://github.com/dxxzst/mml-book-chinese)
