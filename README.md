@@ -2,6 +2,8 @@
 
 英文原版请移步 [《Mathematics For Machine Learning》](https://github.com/mml-book/mml-book.github.io)
 
+[原书下载](https://github.com/mml-book/mml-book.github.io/blob/master/book/mml-book_printed.pdf)
+
 逐步翻译中，个人能力、水平有限，希望各位有志之士积极参与……
 
 # 目录
