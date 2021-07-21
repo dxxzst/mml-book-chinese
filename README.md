@@ -4,6 +4,8 @@
 
 [原书下载](https://github.com/mml-book/mml-book.github.io/blob/master/book/mml-book_printed.pdf)
 
+[常见问题](https://github.com/dxxzst/mml-book-chinese/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+
 逐步翻译中，个人能力、水平有限，希望各位有志之士积极参与……
 
 # 目录
