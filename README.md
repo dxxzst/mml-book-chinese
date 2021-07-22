@@ -12,6 +12,10 @@
 # 目录
 
 -  [前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md)
+  - [前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E8%87%B4%E8%B0%A2)
+  - [致谢](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E8%87%B4%E8%B0%A2)
+  - [数学符号表](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8)
+  - [缩略语表](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E7%BC%A9%E7%95%A5%E8%AF%AD%E8%A1%A8)
 
 - [Part I 数学基础](https://github.com/dxxzst/mml-book-chinese/tree/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80)
 
