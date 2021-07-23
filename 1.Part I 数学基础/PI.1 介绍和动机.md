@@ -38,6 +38,6 @@ _模型（model）_ 通常用于描述生成数据的过程，类似于手工加
 **自上而下**：从实际需求深入到更基本的需求。 这种以目标为导向的方法的优势在于，读者始终知道他们为什么需要研究特定概念，并且有一条清晰的所需知识路径。 这种策略的缺点是知识建立在可能不稳定的基础上，读者必须记住一组他们无法理解的单词。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure1.1.png" alt="图 1.1 机器学习的基础和四大支柱" title="图 1.1 机器学习的基础和四大支柱" />
+  <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure1.1.png" alt="图 1.1 机器学习的基础和四大支柱" title="图 1.1 机器学习的基础和四大支柱" /><br>
    <b>图 1.1 机器学习的基础和四大支柱</b><br>
 </p>
