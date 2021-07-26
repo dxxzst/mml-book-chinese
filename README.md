@@ -20,6 +20,11 @@
 - [Part I 数学基础](https://github.com/dxxzst/mml-book-chinese/tree/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80)
 
   - [1 介绍和动机](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md)
+    - [1.1为直觉寻找词语](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md#11-%E4%B8%BA%E7%9B%B4%E8%A7%89%E5%AF%BB%E6%89%BE%E8%AF%8D%E8%AF%AD)
+
+    - [1.2两种阅读本书的方式](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md#12-%E4%B8%A4%E7%A7%8D%E9%98%85%E8%AF%BB%E6%9C%AC%E4%B9%A6%E7%9A%84%E6%96%B9%E5%BC%8F)
+
+    - [1.3练习和反馈](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md#13-%E7%BB%83%E4%B9%A0%E5%92%8C%E5%8F%8D%E9%A6%88)
 
   - [2 线性代数](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md)
 
