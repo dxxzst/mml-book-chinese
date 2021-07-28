@@ -47,11 +47,11 @@ $$ \boldsymbol a = \begin{bmatrix} 1 \\ 2 \\ 3 \\ \end{bmatrix} \in \mathbb{R}^3
 > 公司生产的产品 $ N_1,...,N_n $ 需要资源 $ R_1,...,R_m $。为了生产一个单位的产品 $ N_j $，需要 $ a_{ij} $ 个单位的资源 $ R_i $，其中 $ i = 1,...,m $ 且 $ j = 1,...,n $。目标是找到一个最佳生产计划，即如果总共有 $ b_i $ 个单位的资源 $ R_i $ 可用并且（理想情况下）没有剩余资源，则应该生产多少单位 $ x_j $ 的产品 $ N_j $。
 > 如果我们生产 $ x_1,...,x_n $ 个单位对应的产品，我们一共需要 $$ a_{i1}x_1 + \cdots + a_{in}x_n \tag{2.2} $$ 个单位的资源 $ R_i $。因此，最优生产计划 $ (x_1,...,x_n) \in \mathbb{R}^n $ 必须满足以下方程组：
 $$ 
-\begin{align*}
-  a_{11}x_1 + \cdots + a_{1n}x_n &=& b_1 \\ 
-  &\vdots& \\
-  a_{m1}x_1 + \cdots + a_{mn}x_n &=& b_m \tag{2.3}
-\end{align*}
+\begin{align}
+  & a_{11}x_1 + \cdots + a_{1n}x_n = b_1 \\
+      \vdots \\
+  & a_{m1}x_1 + \cdots + a_{mn}x_n = b_m \tag{2.3}
+\end{align}
 $$
 其中 $ a_{ij} \in \mathbb{R}^n $ 和 $ b_i \in \mathbb{R}^n $。
 > 
