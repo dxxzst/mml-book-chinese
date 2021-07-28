@@ -49,7 +49,7 @@ $$ \boldsymbol a = \begin{bmatrix} 1 \\ 2 \\ 3 \\ \end{bmatrix} \in \mathbb{R}^3
 $$ 
 \begin{align*}
   a_{11}x_1 + \cdots + a_{1n}x_n &=& b_1 \\ 
-         &\vdots& \\
+  &\vdots& \\
   a_{m1}x_1 + \cdots + a_{mn}x_n &=& b_m \tag{2.3}
 \end{align*}
 $$
