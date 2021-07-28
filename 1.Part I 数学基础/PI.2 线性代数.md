@@ -58,3 +58,11 @@ $$
 > 
 
 方程 (2.3) 是线性方程组（system of linear equations）的一般形式，$ x_1,...,x_n $ 是这个系统的未知数。 满足(2.3)的每一个n元组 $ (x_1,...,x_n) \in \mathbb{R}^n$ 都是线性方程组的一个解。
+
+$$ 
+\begin{array}{clr}
+  a_{11}x_1 + & \cdots + a_{1n}x_n = b_1 \\
+      & \vdots \\
+  a_{m1}x_1 + &  \cdots + a_{mn}x_n = b_m \tag{2.3}
+\end{array}
+$$
