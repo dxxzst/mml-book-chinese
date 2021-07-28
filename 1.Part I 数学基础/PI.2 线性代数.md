@@ -48,8 +48,8 @@ $$ \boldsymbol a = \begin{bmatrix} 1 \\ 2 \\ 3 \\ \end{bmatrix} \in \mathbb{R}^3
 > 如果我们生产 $ x_1,...,x_n $ 个单位对应的产品，我们一共需要 $$ a_{i1}x_1 + \cdots + a_{in}x_n \tag{2.2} $$ 个单位的资源 $ R_i $。因此，最优生产计划 $ (x_1,...,x_n) \in \mathbb{R}^n $ 必须满足以下方程组：
 $$ 
 \begin{align}
-  & a_{11}x_1 + \cdots + a_{1n}x_n = b_1 \\
-      \vdots \\
+  & a_{11}x_1 + \cdots + a_{1n}x_n = b_1 \\[2ex]
+      \vdots \\[2ex]
   & a_{m1}x_1 + \cdots + a_{mn}x_n = b_m \tag{2.3}
 \end{align}
 $$
