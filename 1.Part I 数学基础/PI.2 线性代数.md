@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # 线性代数
 
 <p align="center">
@@ -98,3 +110,6 @@ $$
   <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure2.3.png" alt="图 2.3 具有两个变量的两个线性方程组的解空间可以在几何上解释为两条线的交点。 每个线性方程代表一条线。" title="图 2.3 具有两个变量的两个线性方程组的解空间可以在几何上解释为两条线的交点。 每个线性方程代表一条线。" /><br>
    <b>图 2.3 具有两个变量的两个线性方程组的解空间可以在几何上解释为两条线的交点。 每个线性方程代表一条线。</b><br>
 </p>
+
+一般而言，对于实值线性方程组，我们要么没有，只有一个，要么有无穷多个解。 当我们无法求解线性方程组时，线性回归（第9章）是解决例 2.1 的一个版本。
+
