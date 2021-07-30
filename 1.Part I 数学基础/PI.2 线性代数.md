@@ -142,12 +142,38 @@ $ \mathbb{R}^{m \times n} $ 是所有实值 $ (m,n) $ 矩阵的集合。 $ \bold
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure2.4.png" alt="图 2.4 通过堆叠其列，矩阵 A 可以表示为一个长向量 a。" title="图 2.4 通过堆叠其列，矩阵 A 可以表示为一个长向量 a。" /><br>
-   <b>图 2.4 通过堆叠其列，矩阵A可以表示为一个长向量a。</b><br>
+   <b>图 2.4 通过堆叠其列，矩阵A可以表示为一个长向量a</b><br>
 </p>
 
 ### 2.2.1 矩阵加法和乘法
 
+两个矩阵的和 $ \boldsymbol A \in \mathbb{R}^{m \times n}, \boldsymbol B \in \mathbb{R}^{m \times n} $ 被定义为对应元素的和，即，
 
+$$
+ \boldsymbol A + \boldsymbol B := \begin{bmatrix} a_{11} + b_{11} & \cdots & a_{1n} + b_{1n} \\ \vdots \\ a_{m1} + b_{m1} & \cdots & a_{mn} + b_{mn} \end{bmatrix} \in \mathbb{R}^{m \times n} \tag{2.12}
+$$
+
+对于矩阵 $ \boldsymbol A \in \mathbb{R}^{m \times n}, \boldsymbol B \in \mathbb{R}^{n \times k} $ ，乘积 $ \boldsymbol C = \boldsymbol A \boldsymbol B \in \mathbb{R}^{m \times k} $ 的元素 $ c_{ij} $ 计算自
+
+$$
+c_{ij} = \sum_{l=1}^{n}{a_{il}b_{lj}}, i = 1,...,m, \ j = 1,...,k \tag{2.13} 
+$$
+
+> 注意矩阵的大小。
+> ``` C = np.einsum(’il, lj’, A, B) ```
+
+这意味着，为了计算元素 $ c_{ij} $，我们将 $ \boldsymbol A $ 的第 $ i $ 行的元素与 $ \boldsymbol B $ 的第 $ j $ 列的元素相乘，然后将它们相加。 稍后在第3.2节中，我们将称其为相应行和列的 _点积（dot produc）_ 。 在需要明确表示正在执行乘法的情况下，我们使用符号 $ \boldsymbol A ·\boldsymbol B $  来表示乘法（明确显示“·”）。
+
+> $ \boldsymbol A $ 中有 $ n $ 列，$ \boldsymbol B $ 中有 $ n $ 行，因此我们可以计算 $ a_{il}b_{lj} $，其中 $ l = 1,...,n $。
+> 通常，两个向量 $ \boldsymbol a, \boldsymbol b $ 之间的点积表示为 $ \boldsymbol a^\top \boldsymbol b $ 或 $ \langle \boldsymbol a, \boldsymbol b \rangle $。
+
+_备注_ 。 只有当它们的“相邻”维度匹配时，矩阵才能相乘。 例如，一个 $ n \times k $ 矩阵 $ \boldsymbol A $ 可以乘以一个 $ k \times m $ 矩阵 $ \boldsymbol B $ ，只能从左侧相乘：
+
+$$
+\underbrace{\boldsymbol A}_{n \times k} \  \underbrace{\boldsymbol B}_{k \times m} = \underbrace{\boldsymbol C}_{n \times m} \tag{2.14}
+$$
+
+如果 $ m \not= n $，则乘积  $ \boldsymbol {BA} $ 未定义，因为相邻维度不匹配。
 
 ### 2.2.2 逆和转置
 
