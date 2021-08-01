@@ -175,6 +175,21 @@ $$
 
 如果 $ m \not= n $，则乘积  $ \boldsymbol {BA} $ 未定义，因为相邻维度不匹配。
 
+_备注_ 。 矩阵乘法并非定义为矩阵逐元素的运算，即 $ c_{ij} \not= a_{ij}b_{ij} $（即使 $ \boldsymbol A、\boldsymbol B $ 的大小相同）。 当我们将（多维）数组彼此相乘时，这种逐元素乘法经常出现在编程语言中，称为 _哈达玛乘积（Hadamard product）_。
+
+> 
+> **例 2.3**
+> $$ \rm 对于 \  \boldsymbol A = \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} \in \mathbb{R}^{2 \times 3}, \ \boldsymbol B = \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix}  \in \mathbb{R}^{3 \times 2}, \  \rm 可以获得 $$ 
+> $$ \boldsymbol {AB} = \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 2 & 3\\ 2 & -5 \end{bmatrix} \in \mathbb{R}^{2 \times 2} \tag{2.15}$$
+> $$ \boldsymbol {BA} = \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} = \begin{bmatrix} 6 & 4 & 2\\ -2 & 0 & 2 \\ 3 & 2 & 1 \end{bmatrix} \in \mathbb{R}^{3 \times 3} \tag{2.16} $$
+
+从这个例子中，我们已经可以看出矩阵乘法是不可交换的，即 $ \boldsymbol {AB} \not = \boldsymbol {BA} $； 另请参见图 2.5 中的说明。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure2.5.png" alt="图 2.5 即使矩阵乘法 AB 和 BA 有意义，结果的维度也可能不同。" title="图 2.5 即使矩阵乘法 AB 和 BA 有意义，结果的维度也可能不同。" /><br>
+   <b>图 2.5 即使矩阵乘法 AB 和 BA 有意义，结果的维度也可能不同。</b><br>
+</p>
+
 ### 2.2.2 逆和转置
 
 ### 2.2.3 乘以标量
