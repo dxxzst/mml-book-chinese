@@ -221,6 +221,24 @@ $$
 
 ### 2.2.2 逆和转置
 
+**定义 2.2** （逆）。对于一个方阵 $ \boldsymbol A \in \mathbb{R}^{n \times n} $，令矩阵 $ \boldsymbol B \in \mathbb{R}^{n \times n} $ 具有 $ \boldsymbol {AB} = \boldsymbol I_n = \boldsymbol {BA} $的性质。 $ \boldsymbol B $ 称为 $ \boldsymbol A $ 的 _逆（inverse）_ ，用 $ \boldsymbol A^{-1} $ 表示。
+
+> 方阵具有相同的列数和行数。
+
+不幸的是，并非每个矩阵 $ \boldsymbol A $ 都具有逆 $ \boldsymbol A^{-1} $。 如果这个逆确实存在，则 A 称为 _正则/可逆/非奇异（regular/invertible/nonsingular）_，否则称为 _奇异/不可逆（singular/noninvertible）_。 当矩阵逆存在时，它是唯一的。 在 2.3 节中，我们将讨论通过求解线性方程组来计算矩阵逆的一般方法。
+
+_备注_（存在 2 × 2 矩阵的逆矩阵）。 考虑一个矩阵:
+
+$$
+\boldsymbol A := \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \in \mathbb{R}^{2 \times 2} \tag{2.21}
+$$
+
+如果我们将 $ \boldsymbol A $ 乘以
+
+$$
+\boldsymbol A^{'} := \begin{bmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{bmatrix} \tag{2.22}
+$$
+
 ### 2.2.3 乘以标量
 
 ### 2.2.4 线性方程组的紧凑表示
