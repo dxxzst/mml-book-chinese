@@ -190,6 +190,35 @@ _备注_ 。 矩阵乘法并非定义为矩阵逐元素的运算，即 $ c_{ij} 
    <b>图 2.5 即使矩阵乘法 AB 和 BA 有意义，结果的维度也可能不同。</b><br>
 </p>
 
+**定义 2.2** （单位矩阵）。 在 $ \mathbb{R}^{n \times n} $ 中，我们将 _单位矩阵（identity matrix）_ 定义为对角线上为 $ 1 $，其他地方为 $ 0 $ 的 $ n \times n $ 矩阵。
+
+$$
+\boldsymbol I_n :=  \begin{bmatrix} 1 & 0 & \cdots & 0 & \cdots & 0 \\ 0 & 1 & \cdots & 0 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & 1 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & 0 & \cdots & 1 \end{bmatrix} \in \mathbb{R}^{n \times n} \tag{2.17} 
+$$
+
+到目前我们定义了矩阵乘法、矩阵加法和单位矩阵，让我们看看矩阵的一些性质：
+
+* 结合律：
+$$
+\forall \boldsymbol A \in \mathbb{R}^{m \times n}, \ \boldsymbol B \in \mathbb{R}^{n \times p},\ \boldsymbol C \in \mathbb{R}^{p \times q} :\ (\boldsymbol{AB})\boldsymbol C = \boldsymbol A (\boldsymbol{BC}) \tag{2.18} 
+$$
+
+* 交换律：
+
+$$
+\forall \boldsymbol {A,B} \in \mathbb{R}^{m \times n}, \ \boldsymbol {C,D} \in \mathbb{R}^{n \times p}: 
+$$
+$$ (\boldsymbol A + \boldsymbol B)\boldsymbol C = \boldsymbol{AC} + \boldsymbol{BC} \tag{2.19a} $$
+$$ \boldsymbol A (\boldsymbol C + \boldsymbol D) = \boldsymbol{AC} + \boldsymbol{AD} \tag{2.19b} $$
+
+* 与单位矩阵相乘：
+
+$$
+\forall \boldsymbol A \in \mathbb{R}^{m \times n}: \ \boldsymbol {I_m A} = \boldsymbol {A I_n} = \boldsymbol A \tag{2.20} 
+$$
+
+请注意，对于 $ m \not = n $，$ \boldsymbol I_m \not = \boldsymbol I_n $
+
 ### 2.2.2 逆和转置
 
 ### 2.2.3 乘以标量
