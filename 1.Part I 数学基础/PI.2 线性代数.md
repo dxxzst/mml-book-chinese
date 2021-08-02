@@ -221,7 +221,7 @@ $$
 
 ### 2.2.2 逆和转置
 
-**定义 2.2** （逆）。对于一个方阵 $ \boldsymbol A \in \mathbb{R}^{n \times n} $，令矩阵 $ \boldsymbol B \in \mathbb{R}^{n \times n} $ 具有 $ \boldsymbol {AB} = \boldsymbol I_n = \boldsymbol {BA} $的性质。 $ \boldsymbol B $ 称为 $ \boldsymbol A $ 的 _逆（inverse）_ ，用 $ \boldsymbol A^{-1} $ 表示。
+**定义 2.3** （逆）。对于一个方阵 $ \boldsymbol A \in \mathbb{R}^{n \times n} $，令矩阵 $ \boldsymbol B \in \mathbb{R}^{n \times n} $ 具有 $ \boldsymbol {AB} = \boldsymbol I_n = \boldsymbol {BA} $ 的性质。 $ \boldsymbol B $ 称为 $ \boldsymbol A $ 的 _逆（inverse）_ ，用 $ \boldsymbol A^{-1} $ 表示。
 
 > 方阵具有相同的列数和行数。
 
@@ -238,6 +238,50 @@ $$
 $$
 \boldsymbol A^{'} := \begin{bmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{bmatrix} \tag{2.22}
 $$
+
+我们得到
+
+$$
+\boldsymbol {AA^{'}} = \begin{bmatrix} a_{11}a_{22} - a_{12}a_{21} & 0 \\ 0 & a_{11}a_{22} - a_{12}a_{21} \end{bmatrix} = a_{11}a_{22} \boldsymbol I \tag{2.23}
+$$
+
+因此
+
+$$
+\boldsymbol A^{-1} =  \frac{1}{a_{11}a_{22} - a_{12}a_{21}}\begin{bmatrix} a_{22} & -a_{12} \\ -a_{21} & a_{11} \end{bmatrix} \tag{2.24}
+$$
+
+当且仅当 $ a_{11}a_{22} - a_{12}a_{21} \not= 0 $。在4.1节中，我们将看到 $ a_{11}a_{22} - a_{12}a_{21} $ 是 2×2 矩阵的行列式。 此外，我们通常可以使用行列式来检查矩阵是否可逆。
+
+> 
+> **例 2.4（逆矩阵）**
+> 矩阵 $$ \boldsymbol A = \begin{bmatrix} 1 & 2 & 1 \\ 4 & 4 & 5 \\ 6 & 7 & 7 \end{bmatrix}, \ \boldsymbol B = \begin{bmatrix} -7 & -7 & 6 \\ 2 & 1 & -1 \\ 4 & 5 & -4 \end{bmatrix} \tag{2.25} $$
+> 互为逆矩阵，因为 $ \boldsymbol {AB} = \boldsymbol I = \boldsymbol {BA} $ 。
+
+**定义 2.4** （转置）。对于 $ \boldsymbol A \in \mathbb{R}^{m \times n} $，矩阵 $ \boldsymbol B \in \mathbb{R}^{n \times m} $ 且 $ b_{ij} = a_{ji} $ 称为 $ \boldsymbol A $ 的 _转置（transpose）_。 我们写 $ \boldsymbol B = \boldsymbol A^{\top} $。
+
+一般情况下，可以通过将 $ \boldsymbol A $ 的列写为 $ \boldsymbol A^{\top} $ 的行来获得 $ \boldsymbol A^{\top} $ 。以下是逆和转置的重要性质：
+
+$$ \boldsymbol {AA^{-1}} = \boldsymbol I = \boldsymbol {A^{-1}A}  \tag{2.26} $$
+$$ \boldsymbol {(AB)^{-1}} = \boldsymbol {B^{-1}A^{-1}} \tag{2.27} $$
+$$ \boldsymbol {(A + B)^{-1}} \not= \boldsymbol {A^{-1} + B^{-1}}  \tag{2.28} $$
+$$ (\boldsymbol {A^{\top})^{\top}} = \boldsymbol A \tag{2.29} $$
+$$ \boldsymbol {(A + B)^{\top}} = \boldsymbol {A^{\top} + B^{\top}} \tag{2.30} $$
+$$ \boldsymbol {(AB)^{\top}} = \boldsymbol {B^{\top}A^{\top}} \tag{2.31} $$
+
+> 矩阵 $ \boldsymbol A $ 的主对角线是全部 $ A_{ij} $ 的集合，其中 $ i = j $。
+> (2.28) 的标量情况是 $ \frac{1}{2 + 4} = \frac{1}{6} \not= \frac{1}{2} + \frac{1}{6} $
+
+**定义 2.5** （对称矩阵）。如果 $ \boldsymbol A = \boldsymbol A^{\top} $， 则矩阵 $ \boldsymbol A \in \mathbb{R}^{n \times n} $ 是 _对称矩阵（symmetric matrix）_。
+
+请注意，只有 $ (n, n) $ 矩阵才可以是对称的。通常，我们称 $ (n, n) $ 矩阵也为 _方阵（square matrix）_，因为它们具有相同的行数和列数。此外，如果 $ \boldsymbol A $ 是可逆的，那么 $ \boldsymbol A^{\top} $ 也是可逆的，并且 $ (\boldsymbol A^{-1})^{\top} = (\boldsymbol A^{\top})^{-1} =: \boldsymbol A^{\top} $ 。
+
+_备注_（对称矩阵的和与乘积）。 对称矩阵  $ \boldsymbol {A,B} \in \mathbb{R}^{n \times n} $ 的总和总是对称的。 然而，虽然他们的乘积有意义，但它通常不是对称的：
+
+$$
+\begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix} \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix} \tag{2.32}
+$$
+
 
 ### 2.2.3 乘以标量
 
