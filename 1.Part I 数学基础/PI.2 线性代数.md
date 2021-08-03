@@ -160,9 +160,9 @@ c_{ij} = \sum_{l=1}^{n}{a_{il}b_{lj}}, i = 1,...,m, \ j = 1,...,k \tag{2.13}
 $$
 
 > 注意矩阵的大小。
-> ``` C = np.einsum(’il, lj’, A, B) ```
+> ``` C = np.einsum('il, lj', A, B) ```
 
-这意味着，为了计算元素 $ c_{ij} $，我们将 $ \boldsymbol A $ 的第 $ i $ 行的元素与 $ \boldsymbol B $ 的第 $ j $ 列的元素相乘，然后将它们相加。 稍后在第3.2节中，我们将称其为相应行和列的 _点积（dot produc）_ 。 在需要明确表示正在执行乘法的情况下，我们使用符号 $ \boldsymbol A ·\boldsymbol B $  来表示乘法（明确显示“·”）。
+这意味着，为了计算元素 $ c_{ij} $，我们将 $ \boldsymbol A $ 的第 $ i $ 行的元素与 $ \boldsymbol B $ 的第 $ j $ 列的元素相乘，然后将它们相加。 稍后在第3.2节中，我们将称其为相应行和列的 _点积（dot produc）_ 。 在需要明确表示正在执行乘法的情况下，我们使用符号 $ \boldsymbol A \ · \boldsymbol B $  来表示乘法（明确显示“·”）。
 
 > $ \boldsymbol A $ 中有 $ n $ 列，$ \boldsymbol B $ 中有 $ n $ 行，因此我们可以计算 $ a_{il}b_{lj} $，其中 $ l = 1,...,n $。
 > 通常，两个向量 $ \boldsymbol a, \boldsymbol b $ 之间的点积表示为 $ \boldsymbol a^\top \boldsymbol b $ 或 $ \langle \boldsymbol a, \boldsymbol b \rangle $。
