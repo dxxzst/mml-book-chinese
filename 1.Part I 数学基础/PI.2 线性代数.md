@@ -285,6 +285,33 @@ $$
 
 ### 2.2.3 乘以标量
 
+让我们看看当矩阵乘以标量 $ \lambda \in \mathbb{R} $ 时会发生什么。让 $ \boldsymbol A \in \mathbb{R}^{m \times n} $ 和 $ \lambda \in \mathbb{R} $，然后 $ \lambda \boldsymbol A =  \boldsymbol K, K_{ij} = \lambda a_{ij} $ 。 实际上， $ \lambda $ 缩放了 $ \boldsymbol A $ 的每个元素。 对于 $ \lambda,\psi \in \mathbb{R} $，以下成立：
+
+* 结合律 
+$$ (\lambda \psi)\boldsymbol C = \lambda(\psi \boldsymbol C), \ \boldsymbol C \in \mathbb{R}^{m \times n} $$
+
+* $ \lambda (\boldsymbol {BC}) = (\lambda \boldsymbol B) \boldsymbol C = \boldsymbol B (\lambda \boldsymbol C) = (\boldsymbol {BC}) \lambda, \ \boldsymbol B \in \mathbb{R}^{m \times n}, \  \boldsymbol C \in \mathbb{R}^{n \times k} $ 。请注意，这意味着我们可以随意移动标量值。
+
+* $ (\lambda \boldsymbol C)^{\top} = \boldsymbol C^{\top} \lambda^{\top} = \boldsymbol C^{\top} \lambda = \lambda \boldsymbol C^{\top} $ ， 因为对于所有的 $ \lambda \in \mathbb{R}, \ \lambda = \lambda^{\top} $ 。
+
+* 分配律 
+$$ (\lambda + \psi) \boldsymbol C = \lambda \boldsymbol C + \psi \boldsymbol C, \ \boldsymbol C \in \mathbb{R}^{m \times n} $$
+$$ \lambda (\boldsymbol B + \boldsymbol C) = \lambda \boldsymbol B + \lambda \boldsymbol C, \ \boldsymbol {B,C} \in \mathbb{R}^{m \times n} $$
+
+>
+> **例 2.5（分配律）** 
+> 如果我们定义 
+$$
+\boldsymbol C := \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \tag{2.33}
+$$
+> 那么对于任何 $ \lambda, \psi \in \mathbb{R} $ 我们得到
+$$
+(\lambda + \psi)\boldsymbol C = \begin{bmatrix} (\lambda + \psi)1 & (\lambda + \psi)2 \\ (\lambda + \psi)3 & (\lambda + \psi)4 \end{bmatrix} =  \begin{bmatrix} \lambda + \psi & 2\lambda + 2\psi \\ 3\lambda + 3\psi & 4\lambda + 4\psi \end{bmatrix} \tag{2.34a}
+$$
+$$
+= \begin{bmatrix} \lambda & 2\lambda \\ 3\lambda & 4\lambda \end{bmatrix} + \begin{bmatrix} \psi & 2\psi \\ 3\psi & 4\psi \end{bmatrix} \tag{2.34b} = \lambda \boldsymbol C + \psi \boldsymbol C
+$$
+
 ### 2.2.4 线性方程组的紧凑表示
 
 ## 2.3 求解线性方程组 
