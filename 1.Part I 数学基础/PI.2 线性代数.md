@@ -48,12 +48,12 @@ $$ \boldsymbol a = \begin{bmatrix} 1 \\ 2 \\ 3 \\ \end{bmatrix} \in \mathbb{R}^3
 > 如果我们生产 $ x_1,...,x_n $ 个单位对应的产品，我们一共需要 $$ a_{i1}x_1 + \cdots + a_{in}x_n \tag{2.2} $$ 个单位的资源 $ R_i $。因此，最优生产计划 $ (x_1,...,x_n) \in \mathbb{R}^n $ 必须满足以下方程组：
 $$ 
 \begin{array}{clr}
-  a_{11}x_1 + & \cdots + a_{1n}x_n = b_1 \\
-      & \vdots \\
-  a_{m1}x_1 + &  \cdots + a_{mn}x_n = b_m \tag{2.3}
+  a_{11}x_1 + \cdots + a_{1n}x_n & = b_1 \\
+        & \vdots \\
+  a_{m1}x_1 +  \cdots + a_{mn}x_n & = b_m \tag{2.3}
 \end{array}
 $$
-> 其中 $ a_{ij} \in \mathbb{R}^n $ 和 $ b_i \in \mathbb{R}^n $。
+> 其中 $ a_{ij} \in \mathbb{R} $ 和 $ b_i \in \mathbb{R} $。
 > 
 
 方程(2.3)是线性方程组（system of linear equations）的一般形式，$ x_1,...,x_n $ 是这个系统的未知数。 满足(2.3)的每一个n元组 $ (x_1,...,x_n) \in \mathbb{R}^n$ 都是线性方程组的一个解。
@@ -333,3 +333,65 @@ $$
 通常，线性方程组可以用其矩阵形式紧凑地表示为 $ \boldsymbol {Ax} = \boldsymbol b $； 见 (2.3)，乘积 $ \boldsymbol {Ax} $ 是 $ \boldsymbol A $ 的列的（线性）组合。 我们将在 2.5 节中更详细地讨论线性组合。
 
 ## 2.3 求解线性方程组 
+
+在（2.3）中，我们介绍了方程组的一般形式，即
+
+$$ 
+\begin{array}{clr}
+  a_{11}x_1 + \cdots + a_{1n}x_n & = b_1 \\
+        & \vdots \\
+  a_{m1}x_1 +  \cdots + a_{mn}x_n & = b_m \tag{2.37}
+\end{array}
+$$
+
+其中 $ a_{ij} \in \mathbb{R} $ 和 $ b_i \in \mathbb{R} $ 是已知常数， $ x_j $ 是未知数， $ i = 1,...,m, \ j = 1,...,n $。到目前为止，我们看到矩阵可以用来精确表达线性方程组的紧凑形式，以便我们可以写出 $ \boldsymbol {Ax} = \boldsymbol b $ ，参见（2.10）。 此外，我们定义了基本的矩阵运算，例如矩阵的加法和乘法。 在下文中，我们将专注于求解线性方程组并提供一种求矩阵逆的算法。
+
+### 2.3.1 特解和通解
+
+在讨论如何对线性方程组进行一般求解之前，让我们先看一个例子。 考虑方程组
+
+$$
+\begin{bmatrix} 1 & 0 & 8 & -4 \\ 0 & 1 & 2 & 12 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \end{bmatrix} = \begin{bmatrix} 42 \\ 8 \end{bmatrix} \tag{2.38}
+$$
+
+该系统有两个方程和四个未知数。 因此，通常我们会期望有无穷多个解。 这个方程组的形式特别简单，其中前两列由 $ 1 $ 和 $ 0 $ 组成。请记住，我们要找到标量 $ x_1,...,x_4 $ ，使得 $\sum^{4}_{i=1}{x_i \boldsymbol c_i} = \boldsymbol b $，其中我们将 $ \boldsymbol c_i $ 定义为矩阵的第 $ i $ 列，将 $ \boldsymbol b $ 定义为(2.38)的右侧。我们对第一列乘42，第二列乘8，便可以立即找到 (2.38) 中问题的解
+
+$$
+\boldsymbol b = \begin{bmatrix} 42 \\ 8 \end{bmatrix} = 42 \begin{bmatrix} 1 \\ 0 \end{bmatrix} + 8 \begin{bmatrix} 0 \\ 1 \end{bmatrix} \tag{2.39}
+$$
+
+因此，一个解是 $ [42,8,0,0]^{\top} $ 。 这种解称为 _特解（particular solution/special solution）_。然而，这并不是这个线性方程组的唯一解。 为了捕获所有其他解，我们需要创造性地使用矩阵的列以一种有意义的方式生成 $ \boldsymbol 0 $：将 $ \boldsymbol 0 $ 添加到我们的特解中并不会改变特解。 为此，我们使用前两列（这种非常简单的形式）表示第三列
+
+$$
+\begin{bmatrix} 8 \\ 2 \end{bmatrix} = 8 \begin{bmatrix} 1 \\ 0 \end{bmatrix} + 2 \begin{bmatrix} 0 \\ 1 \end{bmatrix} \tag{2.40}
+$$
+
+所以 $ \boldsymbol 0 = 8 \boldsymbol c_1 + 2 \boldsymbol c_2 - 1 \boldsymbol c_3 + 0 \boldsymbol c_4 $ 且 $ (x_1,x_2,x_3,x_4) = (8,2,-1,0) $。事实上，这个解的任何 $ \lambda{_1} \in \mathbb{R} $ 缩放都会产生 $ \boldsymbol 0 $ 向量，即，
+
+$$
+\begin{bmatrix} 1 & 0 & 8 & -4 \\ 0 & 1 & 2 & 12 \end{bmatrix} \left( \lambda{_1}   \begin{bmatrix} 8 \\ 2 \\ -1 \\ 0 \end{bmatrix} \right) = \lambda{_1} (8 \boldsymbol c_1 + 2 \boldsymbol c_2 - \boldsymbol c_3) = \boldsymbol 0 \tag{2.41}
+$$
+
+按照相同的推理思路，我们使用前两列表达（2.38）中矩阵的第四列，并为任何 $ \lambda{_3} \in \mathbb{R} $ 生成另一组有意义的 $ \boldsymbol 0 $ 
+
+$$
+\begin{bmatrix} 1 & 0 & 8 & -4 \\ 0 & 1 & 2 & 12 \end{bmatrix} \left( \lambda{_2}   \begin{bmatrix} -4 \\ 12 \\ 0 \\ -1 \end{bmatrix} \right) = \lambda{_3} (-4 \boldsymbol c_1 + 12 \boldsymbol c_2 - \boldsymbol c_4) = \boldsymbol 0 \tag{2.42}
+$$
+
+综上所述，我们得到式(2.38)中方程组的所有解，称为 _通解（general solution）_，集合为
+
+$$
+\left\{ \boldsymbol x \in \mathbb{R}^4 : \boldsymbol x =  \begin{bmatrix} 42 \\ 8 \\ 0 \\ 0 \end{bmatrix} + \lambda{_1} \begin{bmatrix} 8 \\ 2 \\ -1 \\ 0 \end{bmatrix} + \lambda{_2} \begin{bmatrix} -4 \\ 12 \\ 0 \\ -1 \end{bmatrix}, \  \lambda{_1},\lambda{_2} \in \mathbb{R} \right\} \tag{2.43}
+$$
+
+_备注_。 我们遵循的一般方法包括以下三个步骤：
+
+1. 求 $ \boldsymbol {Ax} = \boldsymbol b $ 的特解。
+2. 求 $ \boldsymbol {Ax} = \boldsymbol 0 $ 的所有解。
+3. 结合步骤1和2的解决方案成为通解。
+
+通解和特解都不是唯一的。
+
+前面例子中的线性方程组很容易求解，因为（2.38）中的矩阵具有这种特别方便的形式，这使我们可以通过检查找到特解和通解。 然而，一般方程系统不是这种简单的形式。 幸运的是，存在一种将任何线性方程组转换为这种特别简单的形式的构造算法：高斯消元法（Gaussian elimination）。 高斯消元的关键是线性方程组的初等变换，将方程组转化为简单的形式。 然后，我们可以将这三个步骤应用到这种简单形式上，正是我们刚刚在 (2.38) 示例上下文中讨论的方法。
+
+### 2.3.2 初等变换
