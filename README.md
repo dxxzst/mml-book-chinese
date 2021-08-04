@@ -28,7 +28,7 @@
 
   - [ ] [2 线性代数](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md)
     - [x] [2.1线性方程组](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#21-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84)
-    - [ ] [2.2矩阵](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#22-%E7%9F%A9%E9%98%B5)
+    - [x] [2.2矩阵](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#22-%E7%9F%A9%E9%98%B5)
     - [ ] [2.3求解线性方程组](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#23-%E6%B1%82%E8%A7%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%845)
     - [ ] 2.4向量空间
     - [ ] 2.5线性独立
