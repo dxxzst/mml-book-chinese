@@ -52,9 +52,7 @@ $$
         & \vdots \\
   a_{m1}x_1 +  \cdots + a_{mn}x_n & = b_m \tag{2.3}
 \end{array}
-$$
-> 其中 $ a_{ij} \in \mathbb{R} $ 和 $ b_i \in \mathbb{R} $。
-> 
+$$ 其中 $ a_{ij} \in \mathbb{R} $ 和 $ b_i \in \mathbb{R} $。
 
 方程(2.3)是线性方程组（system of linear equations）的一般形式，$ x_1,...,x_n $ 是这个系统的未知数。 满足(2.3)的每一个n元组 $ (x_1,...,x_n) \in \mathbb{R}^n$ 都是线性方程组的一个解。
 
@@ -69,7 +67,7 @@ $$
   2x_1 + 3x_3 & = 1 &(3) \tag{2.4}
 \end{array}
 $$
->  _没有解_ ：将前两个方程相加得到 $ 2x_1 + 3x_3 = 5 $ ，这与第三个方程相矛盾。
+> _没有解_ ：将前两个方程相加得到 $ 2x_1 + 3x_3 = 5 $ ，这与第三个方程相矛盾。
 > 让我们看看线性方程组
 $$
 \begin{array}{clr}
@@ -77,8 +75,7 @@ $$
   x_1 - x_2 + 2x_3 & = 2 &(2)\\
   x_2 + x_3 & = 2 &(3)\tag{2.5}
 \end{array}
-$$
-> 从第一个和第三个等式可以得出 $ x_1 = 1 $ 。 从（1）+（2），我们得到 $ 2x_1 + 3x_3 = 5 $，即 $ x_3 = 1 $。从 (3) 中，我们得到 $ x_2 = 1 $。 因此，(1,1,1) 是唯一可能且 _唯一的解_（通过插入验证（1,1,1）是解）。
+$$ 从第一个和第三个等式可以得出 $ x_1 = 1 $ 。 从（1）+（2），我们得到 $ 2x_1 + 3x_3 = 5 $，即 $ x_3 = 1 $。从 (3) 中，我们得到 $ x_2 = 1 $。 因此，(1,1,1) 是唯一可能且 _唯一的解_（通过插入验证（1,1,1）是解）。
 > 作为第三个例子，我们考虑
 $$
 \begin{array}{clr}
@@ -86,12 +83,10 @@ $$
   x_1 - x_2 + 2x_3 & = 2 &(2)\\
   2x_1 + 3x_3 & = 5 &(3)\tag{2.6}
 \end{array}
-$$
-> 由于（1）+（2）=（3），我们可以省略第三个方程（冗余）。 从（1）和（2），我们得到 $ 2x_1 = 5 - 3x_3 $ 和 $ 2x_2 = 1 + x_3 $。 我们定义 $ x_3 = a \in \mathbb{R} $ 作为一个自由变量，使得任何三元组
+$$ 由于（1）+（2）=（3），我们可以省略第三个方程（冗余）。 从（1）和（2），我们得到 $ 2x_1 = 5 - 3x_3 $ 和 $ 2x_2 = 1 + x_3 $。 我们定义 $ x_3 = a \in \mathbb{R} $ 作为一个自由变量，使得任何三元组
 $$
 \left( \frac{5}{2} - \frac{3}{2}a, \frac{1}{2} + \frac{1}{2}a, a \right), a \in \mathbb{R} \tag{2.7}
-$$
-> 都是线性方程组的解，即我们得到一个包含无限多个解的解集。
+$$ 都是线性方程组的解，即我们得到一个包含无限多个解的解集。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure2.3.png" alt="图 2.3 具有两个变量的两个线性方程组的解空间可以在几何上解释为两条线的交点。 每个线性方程代表一条线。" title="图 2.3 具有两个变量的两个线性方程组的解空间可以在几何上解释为两条线的交点。 每个线性方程代表一条线。" /><br>
@@ -179,9 +174,7 @@ _备注_ 。 矩阵乘法并非定义为矩阵逐元素的运算，即 $ c_{ij} 
 
 > 
 > **例 2.3**
-> $$ \rm 对于 \  \boldsymbol A = \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} \in \mathbb{R}^{2 \times 3}, \ \boldsymbol B = \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix}  \in \mathbb{R}^{3 \times 2}, \  \rm 可以获得 $$ 
-> $$ \boldsymbol {AB} = \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 2 & 3\\ 2 & -5 \end{bmatrix} \in \mathbb{R}^{2 \times 2} \tag{2.15}$$
-> $$ \boldsymbol {BA} = \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} = \begin{bmatrix} 6 & 4 & 2\\ -2 & 0 & 2 \\ 3 & 2 & 1 \end{bmatrix} \in \mathbb{R}^{3 \times 3} \tag{2.16} $$
+> $$ \rm 对于 \  \boldsymbol A = \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} \in \mathbb{R}^{2 \times 3}, \ \boldsymbol B = \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix}  \in \mathbb{R}^{3 \times 2}, \  \rm 可以获得 $$ $$ \boldsymbol {AB} = \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix} = \begin{bmatrix} 2 & 3\\ 2 & -5 \end{bmatrix} \in \mathbb{R}^{2 \times 2} \tag{2.15}$$ $$ \boldsymbol {BA} = \begin{bmatrix} 0 & 2 \\ 1 & -1 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 2 & 3 \\ 3 & 2 & 1 \end{bmatrix} = \begin{bmatrix} 6 & 4 & 2\\ -2 & 0 & 2 \\ 3 & 2 & 1 \end{bmatrix} \in \mathbb{R}^{3 \times 3} \tag{2.16} $$
 
 从这个例子中，我们已经可以看出矩阵乘法是不可交换的，即 $ \boldsymbol {AB} \not = \boldsymbol {BA} $； 另请参见图 2.5 中的说明。
 
@@ -255,8 +248,7 @@ $$
 
 > 
 > **例 2.4（逆矩阵）**
-> 矩阵 $$ \boldsymbol A = \begin{bmatrix} 1 & 2 & 1 \\ 4 & 4 & 5 \\ 6 & 7 & 7 \end{bmatrix}, \ \boldsymbol B = \begin{bmatrix} -7 & -7 & 6 \\ 2 & 1 & -1 \\ 4 & 5 & -4 \end{bmatrix} \tag{2.25} $$
-> 互为逆矩阵，因为 $ \boldsymbol {AB} = \boldsymbol I = \boldsymbol {BA} $ 。
+> 矩阵 $$ \boldsymbol A = \begin{bmatrix} 1 & 2 & 1 \\ 4 & 4 & 5 \\ 6 & 7 & 7 \end{bmatrix}, \ \boldsymbol B = \begin{bmatrix} -7 & -7 & 6 \\ 2 & 1 & -1 \\ 4 & 5 & -4 \end{bmatrix} \tag{2.25} $$ 互为逆矩阵，因为 $ \boldsymbol {AB} = \boldsymbol I = \boldsymbol {BA} $ 。
 
 **定义 2.4** （转置）。对于 $ \boldsymbol A \in \mathbb{R}^{m \times n} $，矩阵 $ \boldsymbol B \in \mathbb{R}^{n \times m} $ 且 $ b_{ij} = a_{ji} $ 称为 $ \boldsymbol A $ 的 _转置（transpose）_。 我们写 $ \boldsymbol B = \boldsymbol A^{\top} $。
 
@@ -303,12 +295,9 @@ $$ \lambda (\boldsymbol B + \boldsymbol C) = \lambda \boldsymbol B + \lambda \bo
 > 如果我们定义 
 $$
 \boldsymbol C := \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \tag{2.33}
-$$
-> 那么对于任何 $ \lambda, \psi \in \mathbb{R} $ 我们得到
-$$
+$$ 那么对于任何 $ \lambda, \psi \in \mathbb{R} $ 我们得到 $$
 (\lambda + \psi)\boldsymbol C = \begin{bmatrix} (\lambda + \psi)1 & (\lambda + \psi)2 \\ (\lambda + \psi)3 & (\lambda + \psi)4 \end{bmatrix} =  \begin{bmatrix} \lambda + \psi & 2\lambda + 2\psi \\ 3\lambda + 3\psi & 4\lambda + 4\psi \end{bmatrix} \tag{2.34a}
-$$
-$$
+$$ $$
 = \begin{bmatrix} \lambda & 2\lambda \\ 3\lambda & 4\lambda \end{bmatrix} + \begin{bmatrix} \psi & 2\psi \\ 3\psi & 4\psi \end{bmatrix} \tag{2.34b} = \lambda \boldsymbol C + \psi \boldsymbol C
 $$
 
@@ -395,3 +384,33 @@ _备注_。 我们遵循的一般方法包括以下三个步骤：
 前面例子中的线性方程组很容易求解，因为（2.38）中的矩阵具有这种特别方便的形式，这使我们可以通过检查找到特解和通解。 然而，一般方程系统不是这种简单的形式。 幸运的是，存在一种将任何线性方程组转换为这种特别简单的形式的构造算法：高斯消元法（Gaussian elimination）。 高斯消元的关键是线性方程组的初等变换，将方程组转化为简单的形式。 然后，我们可以将这三个步骤应用到这种简单形式上，正是我们刚刚在 (2.38) 示例上下文中讨论的方法。
 
 ### 2.3.2 初等变换
+
+求解线性方程组的关键是保持解集不变的 _初等变换（ elementary transformations）_，同时将方程组转换为更简单的形式：
+
+* 交换两个方程（矩阵中的行代表方程组）
+* 方程（行）乘以一个常数 $ \lambda \in \mathbb{R} \backslash \{0\} $ 
+* 两个方程相加（行）
+
+> 
+> **例2.6**
+> 对于 $ a \in \mathbb{R} $，我们寻求以下方程组的所有解： $$ \begin{array}{clr}
+  -2x_1 & + & 4x_2 & - & 2x_3 & - & x_4 & + & 4x_5 & = & -3 \\
+  4x_1 & - & 8x_2 & + & 3x_3 & - & 3x_4 & + & x_5 & = & 2 \\ 
+  x_1 & - & 2x_2 & + & x_3 & - & x_4 & + & x_5 & = & 0 \\ 
+  x_1 & - & 2x_2 & & & - & 3x_4 & + & 4x_5 & = & a \tag{2.44}
+\end{array} $$ 我们首先将这个方程组转换为紧凑矩阵形式 $ \boldsymbol {Ax} = \boldsymbol b $。 我们不再明确提及变量 $ \boldsymbol x $ 并构建 _增广矩阵（augmented matrix）_（形式为 $ \begin{bmatrix} \boldsymbol A \ | \ \boldsymbol b \end{bmatrix} $）$$
+\left[
+    \begin{array}{ccccc|c}
+        -2 & 4 & -2 & -1 & 4 & 3 \\ 
+        4 & -8 & 3 & -3 & 1 & 2 \\
+        1 & -2 & 1 & -1 & 1 & 0 \\
+        1 & -2 & 0 & -3 & 4 & a 
+    \end{array}
+\right]
+$$ 在 (2.44) 中，我们使用垂直线将左侧和右侧分开。
+
+### 2.3.3 Minus-1 Trick
+
+### 2.3.4 求解线性方程组的算法
+
+## 2.4 向量空间
