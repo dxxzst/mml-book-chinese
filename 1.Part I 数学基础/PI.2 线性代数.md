@@ -463,6 +463,10 @@ $$
 \left\{ \boldsymbol x \in \mathbb{R}^5: \boldsymbol x = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix} + \lambda{_1}\begin{bmatrix} 2 \\ 1 \\ 0 \\ 0 \\ 0 \end{bmatrix} + \lambda_{2}\begin{bmatrix} 2 \\ 0 \\ -1 \\ 2 \\ 1 \end{bmatrix}, \ \lambda_{1}\lambda_{1} \in \mathbb{R} \right\} \tag{2.47}
 $$
 
+下面，我们将详细介绍一种构造方法来获得线性方程组的特解和通解。
+
+备注（主元和阶梯结构）。 行的首项系数（leading coefficient，从左侧开始的第一个非零数）称为 _主元（pivot）_，并且始终严格位于其上一行的主元的右侧。 因此，任何行梯队形式的方程组都具有“阶梯”结构。
+
 ### 2.3.3 Minus-1 Trick
 
 ### 2.3.4 求解线性方程组的算法
