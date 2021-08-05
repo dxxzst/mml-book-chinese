@@ -401,13 +401,67 @@ _备注_。 我们遵循的一般方法包括以下三个步骤：
 \end{array} $$ 我们首先将这个方程组转换为紧凑矩阵形式 $ \boldsymbol {Ax} = \boldsymbol b $。 我们不再明确提及变量 $ \boldsymbol x $ 并构建 _增广矩阵（augmented matrix）_（形式为 $ \begin{bmatrix} \boldsymbol A \ | \ \boldsymbol b \end{bmatrix} $）$$
 \left[
     \begin{array}{ccccc|c}
-        -2 & 4 & -2 & -1 & 4 & 3 \\ 
+        -2 & 4 & -2 & -1 & 4 & -3 \\ 
         4 & -8 & 3 & -3 & 1 & 2 \\
         1 & -2 & 1 & -1 & 1 & 0 \\
         1 & -2 & 0 & -3 & 4 & a 
     \end{array}
+\right] \begin{matrix} 与R_3交换 \\ \\ 与R_1交换\\ \\  \end{matrix}
+$$ 在 (2.44) 中，我们使用垂直线将左侧和右侧分开。 我们用 $ \leadsto $ 来表示增广矩阵的初等变换。
+> 交换第1行和第3行结果为
+> $$
+\left[
+    \begin{array}{ccccc|c}
+        1 & -2 & 1 & -1 & 1 & 0 \\ 
+        4 & -8 & 3 & -3 & 1 & 2 \\
+        -2 & 4 & -2 & -1 & 4 & -3 \\
+        1 & -2 & 0 & -3 & 4 & a 
+    \end{array}
+\right] \begin{matrix} \\ -4R_1 \\ +2R_1 \\ -R \\  \end{matrix}
+$$ 当我们现在应用指定的转换时（例如，从 Row 2 中减去 Row 1 四次），我们得到
+> $$
+\left[
+    \begin{array}{ccccc|c}
+        1 & -2 & 1 & -1 & 1 & 0 \\ 
+        0 & 0 & -1 & 1 & -3 & 2 \\
+        0 & 0 & 0 & -3 & 6 & -3 \\
+        0 & 0 & -1 & -2 & 3 & a 
+    \end{array}
+\right] \begin{matrix} \\ \\ \\ -R_2 - R_3 \\  \end{matrix}
+$$ $$ 
+\leadsto
+\left[
+    \begin{array}{ccccc|c}
+        1 & -2 & 1 & -1 & 1 & 0 \\ 
+        0 & 0 & -1 & 1 & -3 & 2 \\
+        0 & 0 & 0 & -3 & 6 & -3 \\
+        0 & 0 & 0 & 0 & 0 & a + 1 
+    \end{array}
+\right] \begin{matrix} \\ · (-1) \\ · (-\frac{1}{3}) \\ \\  \end{matrix}
+$$ $$ 
+\leadsto
+\left[
+    \begin{array}{ccccc|c}
+        1 & -2 & 1 & -1 & 1 & 0 \\ 
+        0 & 0 & 1 & -1 & 3 & -2 \\
+        0 & 0 & 0 & 1 & -2 & 1 \\
+        0 & 0 & 0 & 0 & 0 & a + 1 
+    \end{array}
 \right]
-$$ 在 (2.44) 中，我们使用垂直线将左侧和右侧分开。
+$$ 这个(增广)矩阵是一个方便的形式，_行阶梯形矩阵(REF)（row-echelon form）_。将这个紧凑的表示法还原为显式表示法，并使用我们所寻找的变量，我们得到：
+$$ \begin{array}{clr}
+  x_1 & - & 2x_2 & + & x_3 & - & x_4 & + & x_5 & = & 0 \\
+  & & & & x_3 & - & x_4 & + & 3x_5 & = & -2 \\ 
+  & & & & & & x_4 & - & 2x_5 & = & 1 \\ 
+  & & & & & & & & 0 & = & a + 1 \tag{2.45}
+\end{array} $$ 只有当 $ a= –1 $ 时，才能解出这个方程组。_特解（particular solution）_ 是:
+$$
+\begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix} \tag{2.46}
+$$
+> _通解（general solution）_，也就是所有可能解的集合，是: 
+$$
+\left\{ \boldsymbol x \in \mathbb{R}^5: \boldsymbol x = \begin{bmatrix} 2 \\ 0 \\ -1 \\ 1 \\ 0 \end{bmatrix} + \lambda{_1}\begin{bmatrix} 2 \\ 1 \\ 0 \\ 0 \\ 0 \end{bmatrix} + \lambda_{2}\begin{bmatrix} 2 \\ 0 \\ -1 \\ 2 \\ 1 \end{bmatrix}, \ \lambda_{1}\lambda_{1} \in \mathbb{R} \right\} \tag{2.47}
+$$
 
 ### 2.3.3 Minus-1 Trick
 
