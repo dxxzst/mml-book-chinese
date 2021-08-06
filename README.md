@@ -11,65 +11,65 @@
 
 # 目录
 
-- [x] [前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md)
-  - [x] [前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E5%89%8D%E8%A8%80)
-  - [x] [致谢](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E8%87%B4%E8%B0%A2)
-  - [x] [数学符号表](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8)
-  - [x] [缩略语表](https://github.com/dxxzst/mml-book-chinese/blob/main/0.%E5%89%8D%E8%A8%80.md#%E7%BC%A9%E7%95%A5%E8%AF%AD%E8%A1%A8)
+- [x] 前言
+  - [x] [前言](https://github.com/dxxzst/mml-book-chinese/blob/main/0.Foreword.md#%E5%89%8D%E8%A8%80)
+  - [x] [致谢](https://github.com/dxxzst/mml-book-chinese/blob/main/0.Foreword.md#%E8%87%B4%E8%B0%A2)
+  - [x] [数学符号表](https://github.com/dxxzst/mml-book-chinese/blob/main/0.Foreword.md#%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8)
+  - [x] [缩略语表](https://github.com/dxxzst/mml-book-chinese/blob/main/0.Foreword.md#%E7%BC%A9%E7%95%A5%E8%AF%AD%E8%A1%A8)
 
-- [ ] [Part I 数学基础](https://github.com/dxxzst/mml-book-chinese/tree/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80)
+- [ ] Part I 数学基础
 
-  - [x] [1 介绍和动机](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md)
-    - [x] [1.1为直觉寻找词语](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md#11-%E4%B8%BA%E7%9B%B4%E8%A7%89%E5%AF%BB%E6%89%BE%E8%AF%8D%E8%AF%AD)
+  - [x] [1 介绍和动机](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA)
+    - [x] [1.1为直觉寻找词语](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#11-%E4%B8%BA%E7%9B%B4%E8%A7%89%E5%AF%BB%E6%89%BE%E8%AF%8D%E8%AF%AD)
 
-    - [x] [1.2两种阅读本书的方式](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md#12-%E4%B8%A4%E7%A7%8D%E9%98%85%E8%AF%BB%E6%9C%AC%E4%B9%A6%E7%9A%84%E6%96%B9%E5%BC%8F)
+    - [x] [1.2两种阅读本书的方式](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#12-%E4%B8%A4%E7%A7%8D%E9%98%85%E8%AF%BB%E6%9C%AC%E4%B9%A6%E7%9A%84%E6%96%B9%E5%BC%8F)
 
-    - [x] [1.3练习和反馈](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.1%20%E4%BB%8B%E7%BB%8D%E5%92%8C%E5%8A%A8%E6%9C%BA.md#13-%E7%BB%83%E4%B9%A0%E5%92%8C%E5%8F%8D%E9%A6%88)
+    - [x] [1.3练习和反馈](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#13-%E7%BB%83%E4%B9%A0%E5%92%8C%E5%8F%8D%E9%A6%88)
 
-  - [ ] [2 线性代数](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md)
-    - [x] [2.1线性方程组](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#21-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84)
-    - [x] [2.2矩阵](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#22-%E7%9F%A9%E9%98%B5)
-    - [ ] [2.3求解线性方程组](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.md#23-%E6%B1%82%E8%A7%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%845)
-    - [ ] 2.4向量空间
+  - [ ] [2 线性代数](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/2/2.0LinearAlgebra.md)
+    - [x] [2.1线性方程组](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/2/2.1SystemsOfLinearEquations.md)
+    - [x] [2.2矩阵](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/2/2.2Matrices.md)
+    - [ ] [2.3求解线性方程组](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/2/2.3SolvingSystemsOfLinearEquations.md)
+    - [ ] [2.4向量空间](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/2/2.4VectorSpaces.md)
     - [ ] 2.5线性独立
     - [ ] 2.6基和秩
     - [ ] 2.7线性映射
     - [ ] 2.8仿射空间
     - [ ] 2.9延伸阅读
 
-  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.2.1%20%E7%BB%83%E4%B9%A0.md)
+  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20Mathematical%20Foundations/2/Exercises.md)
 
-  - [ ] [3 解析几何](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.3%20%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95.md)
+  - [ ] 3 解析几何
 
-  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.3.1%20%E7%BB%83%E4%B9%A0.md)
+  - [ ] 练习
 
-  - [ ] [4 矩阵分解](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.4%20%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3.md)
+  - [ ] 4 矩阵分解
 
-  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.4.1%20%E7%BB%83%E4%B9%A0.md)
+  - [ ] 练习
 
-  - [ ] [5 向量微积分](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.5%20%E5%90%91%E9%87%8F%E5%BE%AE%E7%A7%AF%E5%88%86.md)
+  - [ ] 5 向量微积分
 
-  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.5.1%20%E7%BB%83%E4%B9%A0.md)
+  - [ ] 练习
 
-  - [ ] [6 概率与分布](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.6%20%E6%A6%82%E7%8E%87%E4%B8%8E%E5%88%86%E5%B8%83.md)
+  - [ ] 6 概率与分布
 
-  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.6.1%20%E7%BB%83%E4%B9%A0.md)
+  - [ ] 练习
 
-  - [ ] [7 持续优化](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.7%20%E6%8C%81%E7%BB%AD%E4%BC%98%E5%8C%96.md)
+  - [ ] 7 持续优化
 
-  - [ ] [练习](https://github.com/dxxzst/mml-book-chinese/blob/main/1.Part%20I%20%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/PI.7.1%20%E7%BB%83%E4%B9%A0.md)
+  - [ ] 练习
 
-- [ ] [Part II 机器学习核心问题](https://github.com/dxxzst/mml-book-chinese/tree/main/2.Part%20II%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98)
+- [ ] Part II 机器学习核心问题
 
-  - [ ] [8 当模型遇到数据](https://github.com/dxxzst/mml-book-chinese/blob/main/2.Part%20II%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98/PartII.8%20%E5%BD%93%E6%A8%A1%E5%9E%8B%E9%81%87%E5%88%B0%E6%95%B0%E6%8D%AE.md)
+  - [ ] 8 当模型遇到数据
 
-  - [ ] [9 线性回归](https://github.com/dxxzst/mml-book-chinese/blob/main/2.Part%20II%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98/PartII.9%20%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.md)
+  - [ ] 9 线性回归
 
-  - [ ] [10 主成分分析降维](https://github.com/dxxzst/mml-book-chinese/blob/main/2.Part%20II%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98/PartII.10%20%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90%E9%99%8D%E7%BB%B4.md)
+  - [ ] 10 主成分分析降维
 
-  - [ ] [11 使用高斯混合模型进行密度预测](https://github.com/dxxzst/mml-book-chinese/blob/main/2.Part%20II%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98/PartII.11%20%E4%BD%BF%E7%94%A8%E9%AB%98%E6%96%AF%E6%B7%B7%E5%90%88%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E5%AF%86%E5%BA%A6%E9%A2%84%E6%B5%8B.md)
+  - [ ] 11 使用高斯混合模型进行密度预测
 
-  - [ ] [12 使用支持向量机分类](https://github.com/dxxzst/mml-book-chinese/blob/main/2.Part%20II%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98/PartII.12%20%E4%BD%BF%E7%94%A8%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%E5%88%86%E7%B1%BB.md)
+  - [ ] 12 使用支持向量机分类
 
 - [ ] [参考](https://github.com/dxxzst/mml-book-chinese/blob/main/3.%E5%8F%82%E8%80%83.md)
 
