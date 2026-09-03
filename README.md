@@ -65,18 +65,18 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/4/Exercises.md)
 
-  - [ ] [5 向量微积分](./1.Part%20I%20Mathematical%20Foundations/5/5.0VectorCalculus.md)
+  - [x] [5 向量微积分](./1.Part%20I%20Mathematical%20Foundations/5/5.0VectorCalculus.md)
     - [x] [5.1单变量函数微分](./1.Part%20I%20Mathematical%20Foundations/5/5.1DifferentiationOfUnivariateFunctions.md)
-    - [ ] 5.2偏微分与梯度
-    - [ ] 5.3向量值函数的梯度
-    - [ ] 5.4矩阵的梯度
-    - [ ] 5.5计算梯度的常用恒等式
-    - [ ] 5.6反向传播与自动微分
-    - [ ] 5.7高阶导数
-    - [ ] 5.8线性化与多元泰勒级数
-    - [ ] 5.9延伸阅读
+    - [x] [5.2偏微分与梯度](./1.Part%20I%20Mathematical%20Foundations/5/5.2PartialDifferentiationAndGradients.md)
+    - [x] [5.3向量值函数的梯度](./1.Part%20I%20Mathematical%20Foundations/5/5.3GradientsOfVectorValuedFunctions.md)
+    - [x] [5.4矩阵的梯度](./1.Part%20I%20Mathematical%20Foundations/5/5.4GradientsOfMatrices.md)
+    - [x] [5.5计算梯度的常用恒等式](./1.Part%20I%20Mathematical%20Foundations/5/5.5UsefulIdentitiesForComputingGradients.md)
+    - [x] [5.6反向传播与自动微分](./1.Part%20I%20Mathematical%20Foundations/5/5.6BackpropagationAndAutomaticDifferentiation.md)
+    - [x] [5.7高阶导数](./1.Part%20I%20Mathematical%20Foundations/5/5.7HigherOrderDerivatives.md)
+    - [x] [5.8线性化与多元泰勒级数](./1.Part%20I%20Mathematical%20Foundations/5/5.8LinearizationAndMultivariateTaylorSeries.md)
+    - [x] [5.9延伸阅读](./1.Part%20I%20Mathematical%20Foundations/5/5.9FurtherReading.md)
 
-  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/5/Exercises.md)
+  - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/5/Exercises.md)
 
   - [ ] 6 概率与分布
 
