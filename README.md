@@ -39,9 +39,19 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/2/Exercises.md)
 
-  - [ ] 3 解析几何
+  - [ ] [3 解析几何](./1.Part%20I%20Mathematical%20Foundations/3/3.0AnalyticGeometry.md)
+    - [x] [3.1范数](./1.Part%20I%20Mathematical%20Foundations/3/3.1Norms.md)
+    - [ ] 3.2内积
+    - [ ] 3.3长度与距离
+    - [ ] 3.4角度与正交性
+    - [ ] 3.5标准正交基
+    - [ ] 3.6正交补
+    - [ ] 3.7函数内积
+    - [ ] 3.8正交投影
+    - [ ] 3.9旋转
+    - [ ] 3.10延伸阅读
 
-  - [ ] 练习
+  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/3/Exercises.md)
 
   - [ ] 4 矩阵分解
 
