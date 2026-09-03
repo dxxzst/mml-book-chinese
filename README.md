@@ -90,9 +90,13 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/6/Exercises.md)
 
-  - [ ] 7 持续优化
+  - [ ] [7 连续优化](./1.Part%20I%20Mathematical%20Foundations/7/7.0ContinuousOptimization.md)
+    - [x] [7.1使用梯度下降的优化](./1.Part%20I%20Mathematical%20Foundations/7/7.1OptimizationUsingGradientDescent.md)
+    - [ ] 7.2带约束优化与拉格朗日乘子
+    - [ ] 7.3凸优化
+    - [ ] 7.4延伸阅读
 
-  - [ ] 练习
+  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/7/Exercises.md)
 
 - [ ] Part II 机器学习核心问题
 
