@@ -78,9 +78,17 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/5/Exercises.md)
 
-  - [ ] 6 概率与分布
+  - [ ] [6 概率与分布](./1.Part%20I%20Mathematical%20Foundations/6/6.0ProbabilityAndDistributions.md)
+    - [x] [6.1概率空间的构造](./1.Part%20I%20Mathematical%20Foundations/6/6.1ConstructionOfProbabilitySpace.md)
+    - [x] [6.2离散与连续概率](./1.Part%20I%20Mathematical%20Foundations/6/6.2DiscreteAndContinuousProbabilities.md)
+    - [ ] 6.3加法法则、乘法法则与贝叶斯定理
+    - [ ] 6.4统计量与独立性
+    - [ ] 6.5高斯分布
+    - [ ] 6.6共轭与指数族
+    - [ ] 6.7变量代换/逆变换
+    - [ ] 6.8延伸阅读
 
-  - [ ] 练习
+  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/6/Exercises.md)
 
   - [ ] 7 持续优化
 
