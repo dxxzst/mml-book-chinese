@@ -65,9 +65,18 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/4/Exercises.md)
 
-  - [ ] 5 向量微积分
+  - [ ] [5 向量微积分](./1.Part%20I%20Mathematical%20Foundations/5/5.0VectorCalculus.md)
+    - [x] [5.1单变量函数微分](./1.Part%20I%20Mathematical%20Foundations/5/5.1DifferentiationOfUnivariateFunctions.md)
+    - [ ] 5.2偏微分与梯度
+    - [ ] 5.3向量值函数的梯度
+    - [ ] 5.4矩阵的梯度
+    - [ ] 5.5计算梯度的常用恒等式
+    - [ ] 5.6反向传播与自动微分
+    - [ ] 5.7高阶导数
+    - [ ] 5.8线性化与多元泰勒级数
+    - [ ] 5.9延伸阅读
 
-  - [ ] 练习
+  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/5/Exercises.md)
 
   - [ ] 6 概率与分布
 
