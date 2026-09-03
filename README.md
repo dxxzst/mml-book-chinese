@@ -17,7 +17,7 @@
   - [x] [数学符号表](./0.Foreword.md#数学符号表)
   - [x] [缩略语表](./0.Foreword.md#缩略语表)
 
-- [ ] Part I 数学基础
+- [x] Part I 数学基础
 
   - [x] [1 介绍和动机](./1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#介绍和动机)
     - [x] [1.1为直觉寻找词语](./1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#11-为直觉寻找词语)
@@ -90,13 +90,13 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/6/Exercises.md)
 
-  - [ ] [7 连续优化](./1.Part%20I%20Mathematical%20Foundations/7/7.0ContinuousOptimization.md)
+  - [x] [7 连续优化](./1.Part%20I%20Mathematical%20Foundations/7/7.0ContinuousOptimization.md)
     - [x] [7.1使用梯度下降的优化](./1.Part%20I%20Mathematical%20Foundations/7/7.1OptimizationUsingGradientDescent.md)
-    - [ ] 7.2带约束优化与拉格朗日乘子
-    - [ ] 7.3凸优化
-    - [ ] 7.4延伸阅读
+    - [x] [7.2带约束优化与拉格朗日乘子](./1.Part%20I%20Mathematical%20Foundations/7/7.2ConstrainedOptimizationAndLagrangeMultipliers.md)
+    - [x] [7.3凸优化](./1.Part%20I%20Mathematical%20Foundations/7/7.3ConvexOptimization.md)
+    - [x] [7.4延伸阅读](./1.Part%20I%20Mathematical%20Foundations/7/7.4FurtherReading.md)
 
-  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/7/Exercises.md)
+  - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/7/Exercises.md)
 
 - [ ] Part II 机器学习核心问题
 
