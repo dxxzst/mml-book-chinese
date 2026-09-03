@@ -31,7 +31,7 @@
     - [x] [2.2矩阵](./1.Part%20I%20Mathematical%20Foundations/2/2.2Matrices.md)
     - [x] [2.3求解线性方程组](./1.Part%20I%20Mathematical%20Foundations/2/2.3SolvingSystemsOfLinearEquations.md)
     - [x] [2.4向量空间](./1.Part%20I%20Mathematical%20Foundations/2/2.4VectorSpaces.md)
-    - [ ] 2.5线性独立
+    - [x] [2.5线性无关](./1.Part%20I%20Mathematical%20Foundations/2/2.5LinearIndependence.md)
     - [ ] 2.6基和秩
     - [ ] 2.7线性映射
     - [ ] 2.8仿射空间
