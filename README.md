@@ -26,7 +26,7 @@
 
     - [x] [1.3练习和反馈](./1.Part%20I%20Mathematical%20Foundations/1/IntroductionAndMotivation.md#13-练习和反馈)
 
-  - [ ] [2 线性代数](./1.Part%20I%20Mathematical%20Foundations/2/2.0LinearAlgebra.md)
+  - [x] [2 线性代数](./1.Part%20I%20Mathematical%20Foundations/2/2.0LinearAlgebra.md)
     - [x] [2.1线性方程组](./1.Part%20I%20Mathematical%20Foundations/2/2.1SystemsOfLinearEquations.md)
     - [x] [2.2矩阵](./1.Part%20I%20Mathematical%20Foundations/2/2.2Matrices.md)
     - [x] [2.3求解线性方程组](./1.Part%20I%20Mathematical%20Foundations/2/2.3SolvingSystemsOfLinearEquations.md)
@@ -34,10 +34,10 @@
     - [x] [2.5线性无关](./1.Part%20I%20Mathematical%20Foundations/2/2.5LinearIndependence.md)
     - [x] [2.6基和秩](./1.Part%20I%20Mathematical%20Foundations/2/2.6BasisAndRank.md)
     - [x] [2.7线性映射](./1.Part%20I%20Mathematical%20Foundations/2/2.7LinearMappings.md)
-    - [ ] 2.8仿射空间
-    - [ ] 2.9延伸阅读
+    - [x] [2.8仿射空间](./1.Part%20I%20Mathematical%20Foundations/2/2.8AffineSpaces.md)
+    - [x] [2.9延伸阅读](./1.Part%20I%20Mathematical%20Foundations/2/2.9FurtherReading.md)
 
-  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/2/Exercises.md)
+  - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/2/Exercises.md)
 
   - [ ] 3 解析几何
 
