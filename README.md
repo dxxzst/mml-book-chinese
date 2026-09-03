@@ -33,7 +33,7 @@
     - [x] [2.4向量空间](./1.Part%20I%20Mathematical%20Foundations/2/2.4VectorSpaces.md)
     - [x] [2.5线性无关](./1.Part%20I%20Mathematical%20Foundations/2/2.5LinearIndependence.md)
     - [x] [2.6基和秩](./1.Part%20I%20Mathematical%20Foundations/2/2.6BasisAndRank.md)
-    - [ ] 2.7线性映射
+    - [x] [2.7线性映射](./1.Part%20I%20Mathematical%20Foundations/2/2.7LinearMappings.md)
     - [ ] 2.8仿射空间
     - [ ] 2.9延伸阅读
 
