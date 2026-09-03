@@ -53,9 +53,17 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/3/Exercises.md)
 
-  - [ ] 4 矩阵分解
+  - [ ] [4 矩阵分解](./1.Part%20I%20Mathematical%20Foundations/4/4.0MatrixDecompositions.md)
+    - [x] [4.1行列式与迹](./1.Part%20I%20Mathematical%20Foundations/4/4.1DeterminantAndTrace.md)
+    - [ ] 4.2特征值与特征向量
+    - [ ] 4.3Cholesky分解
+    - [ ] 4.4特征分解与对角化
+    - [ ] 4.5奇异值分解
+    - [ ] 4.6矩阵近似
+    - [ ] 4.7矩阵系统发育
+    - [ ] 4.8延伸阅读
 
-  - [ ] 练习
+  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/4/Exercises.md)
 
   - [ ] 5 向量微积分
 
