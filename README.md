@@ -39,19 +39,19 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/2/Exercises.md)
 
-  - [ ] [3 解析几何](./1.Part%20I%20Mathematical%20Foundations/3/3.0AnalyticGeometry.md)
+  - [x] [3 解析几何](./1.Part%20I%20Mathematical%20Foundations/3/3.0AnalyticGeometry.md)
     - [x] [3.1范数](./1.Part%20I%20Mathematical%20Foundations/3/3.1Norms.md)
     - [x] [3.2内积](./1.Part%20I%20Mathematical%20Foundations/3/3.2InnerProducts.md)
     - [x] [3.3长度与距离](./1.Part%20I%20Mathematical%20Foundations/3/3.3LengthsAndDistances.md)
     - [x] [3.4角度与正交性](./1.Part%20I%20Mathematical%20Foundations/3/3.4AnglesAndOrthogonality.md)
     - [x] [3.5标准正交基](./1.Part%20I%20Mathematical%20Foundations/3/3.5OrthonormalBasis.md)
     - [x] [3.6正交补](./1.Part%20I%20Mathematical%20Foundations/3/3.6OrthogonalComplement.md)
-    - [ ] 3.7函数内积
-    - [ ] 3.8正交投影
-    - [ ] 3.9旋转
-    - [ ] 3.10延伸阅读
+    - [x] [3.7函数内积](./1.Part%20I%20Mathematical%20Foundations/3/3.7InnerProductOfFunctions.md)
+    - [x] [3.8正交投影](./1.Part%20I%20Mathematical%20Foundations/3/3.8OrthogonalProjections.md)
+    - [x] [3.9旋转](./1.Part%20I%20Mathematical%20Foundations/3/3.9Rotations.md)
+    - [x] [3.10延伸阅读](./1.Part%20I%20Mathematical%20Foundations/3/3.10FurtherReading.md)
 
-  - [ ] [练习](./1.Part%20I%20Mathematical%20Foundations/3/Exercises.md)
+  - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/3/Exercises.md)
 
   - [ ] 4 矩阵分解
 
