@@ -40,7 +40,7 @@ _模型（model）_ 通常用于描述生成数据的过程，类似于手工加
 我们决定以模块化的方式编写这本书，将基础（数学）概念与应用程序分开，以便可以从两种方式阅读本书。 本书分为两部分，第一部分奠定数学基础，第二部分将第一部分中的概念应用于一组基本的机器学习问题，这些问题构成了机器学习的四大支柱，如图 1.1 所示：回归（regression）、降维（dimensionality reduction） 、密度估计（density estimation）和分类（classification）。 第一部分中的章节主要建立在前几章的基础上，但如有必要，可以跳过一章并往后学习。第二部分中的章节只是松散耦合，可以按任何顺序阅读。 本书的两部分之间有许多向前和向后的提示，将数学概念与机器学习算法联系起来。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dxxzst/mml-book-chinese/main/docs/images/Figure1.1.png" alt="图 1.1 机器学习的基础和四大支柱" title="图 1.1 机器学习的基础和四大支柱" /><br>
+  <img src="../../docs/images/Figure1.1.png" alt="图 1.1 机器学习的基础和四大支柱" title="图 1.1 机器学习的基础和四大支柱" /><br>
    <b>图 1.1 机器学习的基础和四大支柱</b><br>
 </p>
 
