@@ -132,8 +132,14 @@
     - [x] [11.4隐变量视角](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.4LatentVariablePerspective.md)
     - [x] [11.5延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.5FurtherReading.md)
 
-  - [ ] 12 使用支持向量机分类
+  - [x] [12 使用支持向量机分类](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.0ClassificationWithSVM.md)
+    - [x] [12.1分隔超平面](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.1SeparatingHyperplanes.md)
+    - [x] [12.2原生支持向量机](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.2PrimalSupportVectorMachine.md)
+    - [x] [12.3对偶支持向量机](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.3DualSupportVectorMachine.md)
+    - [x] [12.4核方法](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.4Kernels.md)
+    - [x] [12.5数值求解](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.5NumericalSolution.md)
+    - [x] [12.6延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/12/12.6FurtherReading.md)
 
-- [ ] [参考](./3.References.md)
+- [x] [参考](./3.References.md)
 
-- [ ] [索引](./4.Index.md)
+- [x] [索引](./4.Index.md)
