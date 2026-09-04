@@ -100,13 +100,13 @@
 
 - [ ] Part II 机器学习核心问题
 
-  - [ ] [8 当模型遇到数据](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.0WhenModelsMeetData.md)
+  - [x] [8 当模型遇到数据](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.0WhenModelsMeetData.md)
     - [x] [8.1数据、模型与学习](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.1DataModelsAndLearning.md)
     - [x] [8.2经验风险最小化](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.2EmpiricalRiskMinimization.md)
     - [x] [8.3参数估计](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.3ParameterEstimation.md)
-    - [ ] 8.4概率建模与推断
-    - [ ] 8.5有向图模型
-    - [ ] 8.6模型选择
+    - [x] [8.4概率建模与推断](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.4ProbabilisticModelingAndInference.md)
+    - [x] [8.5有向图模型](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.5DirectedGraphicalModels.md)
+    - [x] [8.6模型选择](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.6ModelSelection.md)
 
   - [ ] 9 线性回归
 
