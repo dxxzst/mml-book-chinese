@@ -4,6 +4,10 @@
 
 已翻译完成，个人能力、水平有限，希望各位有志之士积极参与校验。
 
+为了能正确显示项目中的公式，我们可以采取如下方式：
+
+将项目clone至本地，通过Visual Studio Code进行查看，并安装插件 Markdown Preview Enhanced。
+
 [原书下载](https://github.com/mml-book/mml-book.github.io/blob/master/book/mml-book_printed.pdf)
 
 [常见问题](https://github.com/dxxzst/mml-book-chinese/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
