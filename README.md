@@ -125,7 +125,12 @@
     - [x] [10.7隐变量视角](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.7LatentVariablePerspective.md)
     - [x] [10.8延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.8FurtherReading.md)
 
-  - [ ] 11 使用高斯混合模型进行密度预测
+  - [x] [11 使用高斯混合模型进行密度估计](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.0DensityEstimationWithGMM.md)
+    - [x] [11.1高斯混合模型](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.1GaussianMixtureModel.md)
+    - [x] [11.2通过极大似然进行参数学习](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.2ParameterLearningViaMaximumLikelihood.md)
+    - [x] [11.3期望最大化算法](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.3EMAlgorithm.md)
+    - [x] [11.4隐变量视角](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.4LatentVariablePerspective.md)
+    - [x] [11.5延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/11/11.5FurtherReading.md)
 
   - [ ] 12 使用支持向量机分类
 
