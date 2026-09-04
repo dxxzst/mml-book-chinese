@@ -89,7 +89,7 @@
     - [x] [6.4统计量与独立性](./1.Part%20I%20Mathematical%20Foundations/6/6.4SummaryStatisticsAndIndependence.md)
     - [x] [6.5高斯分布](./1.Part%20I%20Mathematical%20Foundations/6/6.5GaussianDistribution.md)
     - [x] [6.6共轭与指数族](./1.Part%20I%20Mathematical%20Foundations/6/6.6ConjugacyAndTheExponentialFamily.md)
-    - [x] [6.7变量代换/逆变换](./1.Part%20I%20Mathematical%20Foundations/6/6.7ChangeOfVariablesInverseTransform.md)
+    - [x] [6.7变量替换/逆变换](./1.Part%20I%20Mathematical%20Foundations/6/6.7ChangeOfVariablesInverseTransform.md)
     - [x] [6.8延伸阅读](./1.Part%20I%20Mathematical%20Foundations/6/6.8FurtherReading.md)
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/6/Exercises.md)
