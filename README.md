@@ -102,7 +102,7 @@
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/7/Exercises.md)
 
-- [ ] Part II 机器学习核心问题
+- [x] Part II 机器学习核心问题
 
   - [x] [8 当模型遇到数据](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.0WhenModelsMeetData.md)
     - [x] [8.1数据、模型与学习](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.1DataModelsAndLearning.md)
