@@ -330,7 +330,7 @@ $$
 
 求变换矩阵 $ \boldsymbol A_{\Phi} $。  
 确定 $ \operatorname{rk}(\boldsymbol A_{\Phi}) $。  
-计算 $ \Phi $ 的核空间（kernel）与像空间（image）。$ \operatorname{dim}(\operatorname{ker}(\Phi)) $ 和 $ \operatorname{dim}(\operatorname{Im}(\Phi)) $ 分别是多少？
+计算 $ \Phi $ 的核（kernel，零空间）与像（image）。$ \operatorname{dim}(\operatorname{ker}(\Phi)) $ 和 $ \operatorname{dim}(\operatorname{Im}(\Phi)) $ 分别是多少？
 
 ---
 
