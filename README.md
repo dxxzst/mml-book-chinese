@@ -108,7 +108,12 @@
     - [x] [8.5有向图模型](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.5DirectedGraphicalModels.md)
     - [x] [8.6模型选择](./2.Part%20II%20Central%20Machine%20Learning%20Problems/8/8.6ModelSelection.md)
 
-  - [ ] 9 线性回归
+  - [x] [9 线性回归](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.0LinearRegression.md)
+    - [x] [9.1问题表述](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.1ProblemFormulation.md)
+    - [x] [9.2参数估计](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.2ParameterEstimation.md)
+    - [x] [9.3贝叶斯线性回归](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.3BayesianLinearRegression.md)
+    - [x] [9.4极大似然作为正交投影](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.4MaximumLikelihoodAsOrthogonalProjection.md)
+    - [x] [9.5延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.5FurtherReading.md)
 
   - [ ] 10 主成分分析降维
 
