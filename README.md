@@ -115,7 +115,15 @@
     - [x] [9.4极大似然作为正交投影](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.4MaximumLikelihoodAsOrthogonalProjection.md)
     - [x] [9.5延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/9/9.5FurtherReading.md)
 
-  - [ ] 10 主成分分析降维
+  - [x] [10 主成分分析降维](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.0DimensionalityReductionWithPCA.md)
+    - [x] [10.1问题设置](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.1ProblemSetting.md)
+    - [x] [10.2最大方差视角](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.2MaximumVariancePerspective.md)
+    - [x] [10.3投影视角](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.3ProjectionPerspective.md)
+    - [x] [10.4特征向量计算与低秩近似](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.4EigenvectorComputationAndLowRankApproximations.md)
+    - [x] [10.5高维主成分分析](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.5PCAInHighDimensions.md)
+    - [x] [10.6实践中PCA的关键步骤](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.6KeyStepsOfPCAInPractice.md)
+    - [x] [10.7隐变量视角](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.7LatentVariablePerspective.md)
+    - [x] [10.8延伸阅读](./2.Part%20II%20Central%20Machine%20Learning%20Problems/10/10.8FurtherReading.md)
 
   - [ ] 11 使用高斯混合模型进行密度预测
 
