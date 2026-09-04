@@ -60,11 +60,11 @@
   - [x] [4 矩阵分解](./1.Part%20I%20Mathematical%20Foundations/4/4.0MatrixDecompositions.md)
     - [x] [4.1行列式与迹](./1.Part%20I%20Mathematical%20Foundations/4/4.1DeterminantAndTrace.md)
     - [x] [4.2特征值与特征向量](./1.Part%20I%20Mathematical%20Foundations/4/4.2EigenvaluesAndEigenvectors.md)
-    - [x] [4.3Cholesky分解](./1.Part%20I%20Mathematical%20Foundations/4/4.3CholeskyDecomposition.md)
+    - [x] [4.3乔莱斯基分解](./1.Part%20I%20Mathematical%20Foundations/4/4.3CholeskyDecomposition.md)
     - [x] [4.4特征分解与对角化](./1.Part%20I%20Mathematical%20Foundations/4/4.4EigendecompositionAndDiagonalization.md)
     - [x] [4.5奇异值分解](./1.Part%20I%20Mathematical%20Foundations/4/4.5SingularValueDecomposition.md)
     - [x] [4.6矩阵近似](./1.Part%20I%20Mathematical%20Foundations/4/4.6MatrixApproximation.md)
-    - [x] [4.7矩阵系统发育](./1.Part%20I%20Mathematical%20Foundations/4/4.7MatrixPhylogeny.md)
+    - [x] [4.7矩阵谱系](./1.Part%20I%20Mathematical%20Foundations/4/4.7MatrixPhylogeny.md)
     - [x] [4.8延伸阅读](./1.Part%20I%20Mathematical%20Foundations/4/4.8FurtherReading.md)
 
   - [x] [练习](./1.Part%20I%20Mathematical%20Foundations/4/Exercises.md)
