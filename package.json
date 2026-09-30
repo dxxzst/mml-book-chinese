@@ -1,0 +1,26 @@
+{
+  "name": "mml-book-chinese-qa",
+  "private": true,
+  "scripts": {
+    "check": "npm run check:structure && npm test && npm run check:math",
+    "check:structure": "python3 scripts/verify_markdown.py",
+    "check:math": "node scripts/verify_math.cjs",
+    "test": "python3 -m unittest discover -s scripts -p 'test_*.py' && node --test scripts/test_verify_math.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0",
+    "crossnote": "0.9.41",
+    "katex": "0.16.47",
+    "markdown-it": "14.3.2"
+  },
+  "overrides": {
+    "crossnote": {
+      "cheerio": "$cheerio",
+      "katex": "$katex",
+      "markdown-it": "$markdown-it"
+    }
+  }
+}
