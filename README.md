@@ -12,22 +12,6 @@
 
 [常见问题](https://github.com/dxxzst/mml-book-chinese/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-## 校验
-
-需要 Node.js 22 或更新版本、npm 和 Python 3（命令为 `python3`）。首次安装或更新依赖后运行：
-
-```sh
-npm ci --ignore-scripts
-npm run check
-```
-
-`npm run check` 依次执行原有结构检查、回归测试和完整 Markdown 公式渲染检查；GitHub Actions 使用同一命令。仅检查公式可运行 `npm run check:math`，或用 `node scripts/verify_math.cjs "章节路径.md"` 检查指定文件。
-
-公式检查采用 Markdown Preview Enhanced 的核心渲染器 Crossnote 0.9.41、KaTeX 0.16.47 和 markdown-it 14.3.2；直接依赖版本和完整依赖树由 `package.json` / `package-lock.json` 固定。它渲染 README、前言、两部分章节、参考文献和索引，遇到 KaTeX ParseError 会以非零状态退出，并报告文件、公式所在行和公式编号。含故意错误示例的 `docs/TRANSLATION_GUIDE.md` 不属于书籍渲染检查范围。
-
-校验不会运行 Markdown 中的脚本或代码块，也不读取本地 `.crossnote` 自定义脚本及公式宏。KaTeX 兼容性警告会保留输出但不判为失败。通过校验表示上述固定配置下未发现公式解析错误，不代表数学内容、图片布局或其他渲染器的效果已经全部核验。
-
-
 # 目录
 
 - [x] 前言
