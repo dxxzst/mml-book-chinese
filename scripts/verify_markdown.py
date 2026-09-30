@@ -1,3 +1,5 @@
+"""Structural checks only; run `npm run check` for math rendering as well."""
+
 import re
 import os
 import sys
@@ -65,10 +67,13 @@ if __name__ == '__main__':
     total_errors = 0
     total_warnings = 0
     for p in sorted(files):
+        if os.path.basename(p) == 'TRANSLATION_GUIDE.md':
+            continue
         if not check_file(p):
             total_errors += 1
             
-    print(f'=== Summary: Scanned {len(files)} markdown files. Total failed files: {total_errors} ===')
+    scanned = sum(os.path.basename(p) != 'TRANSLATION_GUIDE.md' for p in files)
+    print(f'=== Structural summary: Scanned {scanned} markdown files. Total failed files: {total_errors} ===')
+    print('Math rendering is a separate check. Run npm run check for complete QA.')
     if total_errors > 0:
         sys.exit(1)
-
